@@ -2,7 +2,7 @@
 
 ##First we load the subset from the data
 
-info<-readRDS("subsetData.r")
+info<-readRDS("subsetData.rds")
 
 ##Now we plot and save in png file
 
