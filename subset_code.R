@@ -11,6 +11,7 @@ colnames(info)<-info_names
 
 info$Date<-as.Date(as.character(info$Date),"%d/%m/%Y")
 info$Date<-weekdays(info$Date)
+info$Date<-as.factor(info$Date)
 
 ##We save the R object to use it later to plot
 saveRDS(info,file="subsetData.R")
